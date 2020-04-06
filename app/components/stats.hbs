@@ -1,0 +1,84 @@
+<div id="first-line">
+        <div id="first-line-wrapper">
+            <div class="header-title">
+                <h4>Infections</h4>
+                <div class="header-left">
+                    <div class="header-badge blue"><p>{{ active_percentage }}%<span class="material-icons">trending_up</span></p></div>
+                </div>
+                <div class="header-right">
+                    <p class="bignumber">{{ infections }}</p>
+                    <p class="smallnumber">{{ today_infections }} today</p>
+                </div>
+                <div class="blue line"></div>
+            </div>
+            <div class="header-title">
+                <h4>Deaths</h4>
+                <div class="header-left">
+                    <div class="header-badge red"><p>{{ deaths_percentage }}%<span class="material-icons">trending_up</span></p></div>
+                </div>
+                <div class="header-right">
+                    <p class="bignumber">{{ deaths }}</p>
+                    <p class="smallnumber">{{ today_deaths }} today</p>
+                </div>
+                <div class="red line"></div>
+            </div>
+            <div class="header-title">
+                <h4>Recoveries</h4>
+                <div class="header-left">
+                    <div class="header-badge green"><p>{{ recoveries_percentage }}%<span class="material-icons">trending_up</span></p></div>
+                </div>
+                <div class="header-right">
+                    <p class="bignumber">{{ recoveries }}</p>
+                    <p class="smallnumber">{{ recoveries_remaining }} remaining</p>
+                </div>
+                <div class="green line"></div>
+            </div>
+            <div class="header-title">
+                <h4>Critical</h4>
+                <div class="header-left">
+                    <div class="header-badge yellow"><p>{{ critical_percentage }}%<span class="material-icons">trending_up</span></p></div>
+                </div>
+                <div class="header-right">
+                    <p class="bignumber">{{ critical }}</p>
+                    <p class="smallnumber">90,543.69 per million</p>
+                </div>
+                <div class="yellow line"></div>
+            </div>
+        </div>
+    </div>
+
+<div id="secondLine">
+    <div id="secondLineWrapper">
+        <!--
+        <div id="chart">
+            <h4>Rate Distribution</h4>
+            <div id="mapChart"></div>
+        </div>
+        -->
+        <div id="chart2">
+            <h4>Rate Distribution</h4>
+            <div id="gaugeChart"></div>
+        </div>
+
+        <div id="chart3">
+            <h4>Infections History</h4>
+            <div id="lineChart"></div>
+        </div>
+
+        <div id="chart2">
+            <h4>Infection Distribution By Countries</h4>
+            <div id="pieChart"></div>
+        </div>
+
+        <div id="chart2">
+            <h4>Infection Rates</h4>
+            
+        </div>
+
+        <div id="chart2">
+            <h4>Outbreak Started</h4>
+            
+        </div>
+
+    </div>
+</div>

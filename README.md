@@ -1,4 +1,6 @@
-# coronavirus
+# Coronavirus Statistics
+
+This project was created for the SOFE 2020 Competition and it highlights the statistics of the Coronavirus pandemic
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
